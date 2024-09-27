@@ -1,0 +1,26 @@
+{
+  "name": "cotizador_logisticplus",
+  "version": "1.0.0",
+  "description": "El codigo fuente de front y back sobre la pagina web del cotizador",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferperezh/Cotizador_LogisticPlus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferperezh/Cotizador_LogisticPlus/issues"
+  },
+  "homepage": "https://github.com/ferperezh/Cotizador_LogisticPlus#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5"
+  }
+}

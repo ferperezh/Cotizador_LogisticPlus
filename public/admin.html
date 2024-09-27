@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="mini_logo.png" type="image/png">
+    <title>Admin Login</title>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="logo" class="logo"> 
+        <h1>Acceso de Administrador</h1>
+        <form id="admin-login-form">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" required>
+
+            <button type="submit">Ingresar</button>
+        </form>
+        <div id="admin-login-result" class="result"></div>
+        <button onclick="location.href='inicio.html'">Regresar</button>
+    </div>
+
+    <script src="admin_scrpt.js"></script>
+
+</body>
+</html>

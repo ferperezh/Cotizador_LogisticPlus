@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="mini_logo.png" type="image/png">
+    <title>Panel de Administración</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Panel de Administración</h1>
+        <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+            <label for="file">Subir archivo (CSV o Excel):</label>
+            <input type="file" id="file" name="file" accept=".csv, .xlsx, .xls" required>
+            <button type="submit">Subir Archivo</button>
+        </form>
+        
+        <div id="upload-result" class="result"></div>
+        <button onclick="location.href='inicio.html'">Regresar</button>
+    </div>
+
+    <script src="admin_excel.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #281e5d;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column; /* Los botones se alinean verticalmente */
+    justify-content: center;
+    align-items: center; /* Centra los botones horizontalmente */
+}
+
+.header {
+    text-align: center; /* Centra el contenido del encabezado */
+    margin-bottom: 20px; /* Espacio debajo del encabezado */
+}
+
+.logo {
+    max-width: 100px; /* Ajusta el tamaño máximo del logo */
+    height: auto; /* Mantiene la proporción */
+    /* Dejarlo a la izquierda */
+    float: right;
+}
+
+h1 {
+    margin: 10px 0; /* Espacio arriba y abajo del título */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ec6e12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d45a0b;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
